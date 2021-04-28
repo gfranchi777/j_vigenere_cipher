@@ -1,8 +1,8 @@
-package ciphertools.vigenerecipher.test;
+package com.franchiit.ciphertools.vigenerecipher.test;
 
-import ciphertools.vigenerecipher.encryption.*;
-import ciphertools.vigenerecipher.utils.*;
-import ciphertools.vigenerecipher.decryption.*;
+import com.franchiit.ciphertools.vigenerecipher.encryption.*;
+import com.franchiit.ciphertools.vigenerecipher.utils.*;
+import com.franchiit.ciphertools.vigenerecipher.decryption.*;
 
 public class TestFrequencyAnalysis {
   public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class TestFrequencyAnalysis {
     Message cipherText = new Message();
 
     key.setKey("IMPERIAL");
-    clearText.setMessage("TTHE REBEL BASE IS LOCATED ON HOTH.");
+    clearText.setMessage("THE REBEL BASE IS LOCATED ON HOTH.");
 
     vigenereCipher.encrypt(key, clearText, cipherText);
 

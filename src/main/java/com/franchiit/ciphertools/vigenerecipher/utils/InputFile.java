@@ -1,4 +1,4 @@
-package ciphertools.vigenerecipher.utils;
+package com.franchiit.ciphertools.vigenerecipher.utils;
 
 import java.io.*;
 import java.nio.file.*;

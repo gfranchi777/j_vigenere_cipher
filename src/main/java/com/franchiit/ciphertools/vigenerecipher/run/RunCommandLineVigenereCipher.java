@@ -1,4 +1,4 @@
-package ciphertools.vigenerecipher.run;
+package com.franchiit.ciphertools.vigenerecipher.run;
 
 public class RunCommandLineVigenereCipher {
     public RunCommandLineVigenereCipher() {
