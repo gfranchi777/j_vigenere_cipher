@@ -1,7 +1,7 @@
-package ciphertools.vigenerecipher.test;
+package com.franchiit.ciphertools.vigenerecipher.test;
 
-import ciphertools.vigenerecipher.encryption.*;
-import ciphertools.vigenerecipher.utils.*;
+import com.franchiit.ciphertools.vigenerecipher.encryption.*;
+import com.franchiit.ciphertools.vigenerecipher.utils.*;
 
 public class TestVigenereCipherEncryption
 {

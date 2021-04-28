@@ -1,4 +1,4 @@
-package ciphertools.vigenerecipher.utils;
+package com.franchiit.ciphertools.vigenerecipher.utils;
 
 public class Message
 {

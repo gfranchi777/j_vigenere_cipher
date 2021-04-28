@@ -1,9 +1,9 @@
-package ciphertools.vigenerecipher.encryption;
+package com.franchiit.ciphertools.vigenerecipher.encryption;
 
-import ciphertools.vigenerecipher.utils.Alphabet;
-import ciphertools.vigenerecipher.utils.Key;
-import ciphertools.vigenerecipher.utils.Message;
-import ciphertools.vigenerecipher.utils.VigenereSquare;
+import com.franchiit.ciphertools.vigenerecipher.utils.Alphabet;
+import com.franchiit.ciphertools.vigenerecipher.utils.Key;
+import com.franchiit.ciphertools.vigenerecipher.utils.Message;
+import com.franchiit.ciphertools.vigenerecipher.utils.VigenereSquare;
 
 /**
  * 

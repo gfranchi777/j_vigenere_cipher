@@ -1,9 +1,9 @@
-package ciphertools.vigenerecipher.decryption;
+package com.franchiit.ciphertools.vigenerecipher.decryption;
 
-import ciphertools.vigenerecipher.utils.*;
+import com.franchiit.ciphertools.vigenerecipher.utils.*;
 
 public class FrequencyAnalysis {
-  private int[] letterFrequency = new int[Alphabet.NUM_LETTERS_IN_ALPHABET];
+  private int[] letterFrequency;
 
   public FrequencyAnalysis() {
   }//End Method
@@ -13,6 +13,8 @@ public class FrequencyAnalysis {
   }//End Method
 
   public void analyzeText(Message text) {
+    letterFrequency = new int[Alphabet.NUM_LETTERS_IN_ALPHABET];
+    
     for (int i = 0; i < text.length(); i++) {
       if (text.charAt(i) >= Alphabet.ASCII_UPPER_CASE_LETTER_START &&
           text.charAt(i) <= Alphabet.ASCII_UPPER_CASE_LETTER_END) {
